@@ -5,14 +5,19 @@
 
 .wrapper {}
 
+
+
 body {
     background-color: #FFEFF1;
 }
+
+
 
 .container {
     max-width: 650px;
     margin: 0 auto;
 }
+
 
 
 .label {
@@ -40,6 +45,7 @@ body {
 
 
 
+
 .page {}
 
 .page__major {
@@ -49,6 +55,9 @@ body {
 .page__step {}
 
 .page__next {}
+
+.page__result {}
+
 
 
 
@@ -89,7 +98,6 @@ body {
 
 
 
-
 .next {}
 
 .next__label {}
@@ -101,3 +109,18 @@ body {
 .next__wrap-image {}
 
 .next__image {}
+
+
+
+
+.result {}
+
+.result__laber {}
+
+.result__subheading {}
+
+.result__text {}
+
+.result__wrap-image {}
+
+.result__image {}
