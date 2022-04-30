@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
+
+
+.wrapper {}
+
 body {
     background-color: #FFEFF1;
 }
 
-
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
 
 
 .label {
@@ -31,12 +38,6 @@ body {
     color: #8BC441;
 }
 
-.container {
-    max-width: 650px;
-    margin: 0 auto;
-}
-
-
 
 
 .page {}
@@ -45,13 +46,13 @@ body {
     margin-bottom: 50px;
 }
 
+.page__step {}
 
-
+.page__next {}
 
 
 
 .major {}
-
 
 .major__label {
     font-family: 'Nunito Sans', sans-serif;
@@ -75,8 +76,6 @@ body {
 
 .step {}
 
-.page__step {}
-
 .step__label {}
 
 .step__subheading {}
@@ -86,3 +85,19 @@ body {
 .step__wrap-image {}
 
 .step__image {}
+
+
+
+
+
+.next {}
+
+.next__label {}
+
+.next__subheading {}
+
+.next__text {}
+
+.next__wrap-image {}
+
+.next__image {}
