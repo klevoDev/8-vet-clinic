@@ -1,6 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
+body {
+    background-color: #FFEFF1;
+}
+
+
+
+
+.label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+
+    color: #798B56;
+}
+
+.text {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 160%;
+    color: #284854;
+}
+
+.subheading {
+    font-family: 'Roboto';
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #8BC441;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+
 
 .page {}
 
@@ -10,16 +47,17 @@
 
 
 
+
+
+
 .major {}
 
-.container {}
 
 .major__label {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 22px;
     line-height: 30px;
     text-align: center;
-
     color: #63D2AA;
 }
 
@@ -29,7 +67,22 @@
     line-height: 64px;
     text-align: center;
     text-transform: uppercase;
-
     color: #284854;
-
 }
+
+
+
+
+.step {}
+
+.page__step {}
+
+.step__label {}
+
+.step__subheading {}
+
+.step__text {}
+
+.step__wrap-image {}
+
+.step__image {}
