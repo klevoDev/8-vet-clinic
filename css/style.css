@@ -19,25 +19,41 @@ body {
 .container {
     max-width: 650px;
     margin: 0 auto;
+
 }
 
 .case {
     max-width: 710px;
     margin: 0 auto;
+    border: 1px solid #000;
 }
 
 
 
-.subject {
+
+
+.logo {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 115%;
     color: #63D2AA;
+    transition: all 0.3s ease 0s;
 }
 
-.red {
+.logo:hover {
     color: #FF5757;
 }
+
+.logo span {
+    color: #FF5757;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover span {
+    color: #63D2AA;
+}
+
+
 
 .label {
     font-weight: 700;
@@ -68,7 +84,7 @@ body {
 
 .header__subject {}
 
-.header__strong {}
+
 
 
 
@@ -163,7 +179,9 @@ body {
 }
 
 .result__subheading {
-    margin-bottom: 20px;
+
+    max-width: 494px;
+    margin: 0 auto 20px;
 }
 
 .result__text {
@@ -201,25 +219,29 @@ body {
     padding-left: 30px;
     /* резервируем место */
 
-    background-image: url(./../img/user-check.svg);
+    background-image: url("./../img/user-check.svg");
     background-repeat: no-repeat;
-    background-position-x: 9px;
+    /* background-position-x: 9px;
+    background-position-y: 1px; */
+    background-position: 9px 1px;
 
     margin-bottom: 18px;
 }
 
-.footer__more {
+.footer__point {
     padding-left: 30px;
+    margin-left: 6px;
 
-    background-image: url(./../img/check.svg);
+    background-image: url("./../img/check.svg");
     background-repeat: no-repeat;
-    background-position-x: 6px;
+
+    background-position-y: -3px;
 
     margin-bottom: 18px;
 }
 
 .footer__link {
-    color: rgba(96, 193, 189, 1);
+    color: #60C1BD;
     transition: all 0.3s ease 0s;
 }
 
@@ -227,6 +249,8 @@ body {
     color: #FFA7A7;
 }
 
-.footer__subject {
+.footer__wrap-logo {
     text-align: right;
 }
+
+.footer__logo {}
